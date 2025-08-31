@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+
+.main-page {
+    width: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.82);
+    background-blend-mode: overlay;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0), -5px -5px 5px rgb(0, 0, 0);
+    padding: 20px;
+}
+
+section>video {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.main-page>h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 40px 0px;
+    text-align: center;
+    -webkit-text-stroke: 1px white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.form-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-page>div {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+
+}
+
+.form-page>div>label {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+
+#height,
+#weight {
+    height: 45px;
+    width: 80vmin;
+    padding: 5px 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.btn-primary {
+    height: 50px;
+    width: 120px;
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin: 20px 0px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.result{
+    padding: 30px 0px ;
+    text-align: center;
+
+}
+p{
+    color: red;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
